@@ -32,12 +32,12 @@ export default {
                 <li>Luvas do Greedy:</li>
             </ul> -->
 
-            <div class="grid grid-cols-2 md:justify-center md:ml-5 md:mt-5">
+            <div class="grid grid-cols-2 md:justify-center md:ml-10 md:mt-5">
                 <div class="flex md:w-11/12 bg-brown rounded-30 border-white-op-25 border-2">
                     <div class="flex w-4/12 justify-center">
                         <img src="../../../../public/image/itens/brinco_vida.png" class="object-scale-down"/>
                     </div>
-                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3">
+                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3 mr-12">
                         <h5 class="text-left">Brinco do Despertar Vida</h5>
                         <p class="text-left text-sm">Item de <span class="text-red-boss">Vida</span> Raro, pode ser encontrado ao derrotar o Boss <span class="text-green-boss">Celine.</span></p>
                     </div>
@@ -46,7 +46,7 @@ export default {
                     <div class="flex w-4/12 justify-center">
                         <img src="../../../../public/image/itens/brinco_morte.png" class="object-scale-down"/>
                     </div>
-                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3">
+                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3 mr-12">
                         <h5 class="text-left">Brinco do Despertar Morte</h5>
                         <p class="text-left text-sm">
                             Item da <span class="text-red-boss">Morte</span> Raro, pode ser encontrado ao derrotar o Boss <span class="text-purple-boss">Fúria.</span>
@@ -57,7 +57,7 @@ export default {
                     <div class="flex w-4/12 justify-center">
                         <img src="../../../../public/image/itens/escudo.png" class="object-scale-down"/>
                     </div>
-                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3">
+                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3 mr-12">
                         <h5 class="text-left">Escudo da Dama</h5>
                         <p class="text-left text-sm">Item Raro, pode ser encontrado ao derrotar o Boss <span class="text-red-boss">Dama de Fogo.</span></p>
                     </div>
@@ -66,7 +66,7 @@ export default {
                     <div class="flex w-4/12 justify-center">
                         <img src="../../../../public/image/itens/greedy.png" class="object-scale-down"/>
                     </div>
-                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3">
+                    <div class="flex-col w-8/12 justify-start mt-4 space-y-3 mr-12">
                         <h5 class="text-left">Luvas do Greedy</h5>
                         <p class="text-left text-sm">Item Raro, pode ser encontrado ao derrotar o Boss <span class="text-blue-boss">Greedy.</span></p>
                     </div>

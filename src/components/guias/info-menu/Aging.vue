@@ -31,7 +31,7 @@
 </script>
 
 <template>
-    <h1 class="mt-10 ml-5 text-3xl text-center">Sistema de Aging</h1>
+    <h1 class="mt-10 ml-5 md:text-sm lg:text-3xl text-center">Sistema de Aging</h1>
     <table class="table-auto ml-5 mr-5 w-11/12 items-center mt-10">
         <thead>
             <tr class="items-center justify-center">
@@ -53,7 +53,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr class="text-center hover:bg-yellow cursor-default" v-for="item in items">
+            <tr class="text-center md:text-sm hover:bg-yellow cursor-default" v-for="item in items">
                 <td>{{ item.name }}</td>
                 <td>{{ item.sheltom.fadeo }}</td>
                 <td>{{ item.sheltom.sparky }}</td>

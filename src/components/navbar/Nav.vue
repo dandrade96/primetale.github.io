@@ -12,7 +12,7 @@
 
 <template>
    
-<nav class="border-gray-200 mt-46px z-50 fixed w-screen ">
+<nav class="border-gray-200 md:mt-mdh lg:mt-mdh z-50 fixed w-screen ">
   <div class="flex flex-wrap justify-center mx-50px p-4 bg-yellow rounded-xl drop-shadow-3xl nav">
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
