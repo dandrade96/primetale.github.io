@@ -19,8 +19,8 @@ import Mixagem from './info-menu/Mixagem.vue';
                     { text: 'Aging', isSelected: true },
                     { text: 'Armazém', isSelected: false },
                     { text: 'Item Boss', isSelected: false },
-                    { text: 'Loja Pessoal', isSelected: false },
-                    { text: 'Mixagem', isSelected: false }
+                    // { text: 'Loja Pessoal', isSelected: false },
+                    // { text: 'Mixagem', isSelected: false }
                 ],
                 selectedItem:  { text: 'Aging', isSelected: true },
             }
@@ -38,9 +38,9 @@ import Mixagem from './info-menu/Mixagem.vue';
 </script>
 
 <template>
-    <section class="flex bg-brown bg-fixed bg-cover bg-no-repeat bg-center h-screen">
+    <section class="flex bg-brown bg-fixed bg-cover bg-no-repeat bg-center h-screen lg:h-auto">
         <div class="pt-vnt flex">
-            <div class="shadow-inner shadow-white-op-25 bg-preto-ebano w-card-guia h-card-guia ml-246 rounded-50">
+            <div class="shadow-inner shadow-white-op-25 bg-preto-ebano w-card-guia h-card-guia lg:h-auto lg:mb-2 ml-246 rounded-50">
                 <Aging v-if="selectedItem.text === 'Aging'"/>
                 <Armazem v-if="selectedItem.text === 'Armazém'"/>
                 <ItemBoss v-if="selectedItem.text === 'Item Boss'"/>

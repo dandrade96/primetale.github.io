@@ -10,9 +10,9 @@ export default {
 </script>
 
 <template>
-    <h1 class="mt-10 ml-5 text-3xl text-center">Itens Boss</h1>
-    <div class="mt-5 ml-5 mr-5 space-y-4 text-center text-lg">
-        <div class="mt-10">
+    <h1 class="mt-10 ml-5 text-3xl text-center lg:mt-5">Itens Boss</h1>
+    <div class="mt-5 ml-5 mr-5 space-y-4 text-center text-lg lg:text-sm">
+        <div class="mt-10 lg:mt-5">
             <span>
                 O Prime Tale conta com alguns itens extremamente raros que somente são adquiridos através dos Boss. 
                 Vale ressaltar que os itens são balanceados em relação aos itens da última linha.
@@ -32,7 +32,7 @@ export default {
                 <li>Luvas do Greedy:</li>
             </ul> -->
 
-            <div class="grid grid-cols-2 md:justify-center md:ml-10 md:mt-5">
+            <div class="grid grid-cols-2 justify-center ml-10 mt-5 lg:mb-3">
                 <div class="flex md:w-11/12 bg-brown rounded-30 border-white-op-25 border-2">
                     <div class="flex w-4/12 justify-center">
                         <img src="../../../../public/image/itens/brinco_vida.png" class="object-scale-down"/>

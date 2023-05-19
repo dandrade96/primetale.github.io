@@ -1,6 +1,6 @@
 <template class="bg-brown">
-    <div class="flex w-card-guia justify-center" v-if="isLoaded">
-        <ul class="flex flex-row flex-w space-x-4">
+    <div class="flex lg:flex-col w-card-guia justify-center" v-if="isLoaded">
+        <ul class="flex lg:flex-wrap lg:space-x-2 xl:flex-row lg:justify-center lg:mb-2  xl:flex-w">
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'as' ? 'border-gold text-gold': ''" @click="changedJobs(3, 'as')">Arqueira</li>
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'ass' ? 'border-gold text-gold': ''" @click="changedJobs(9, 'ass')">Assassina</li>
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'ata' ? 'border-gold text-gold': ''" @click="changedJobs(5, 'ata')">Atalanta</li>
@@ -8,6 +8,8 @@
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'gr' ? 'border-gold text-gold': ''" @click="changedJobs(11, 'gr')">Guerreira</li>
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'fs' ? 'border-gold text-gold': ''" @click="changedJobs(1, 'fs')">Lutador</li>
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'mg' ? 'border-gold text-gold': ''" @click="changedJobs(7, 'mg')">Mago</li>
+        </ul>
+        <ul class="flex lg:flex-wrap lg:space-x-2 xl:flex-row lg:justify-center lg:mb-2  xl:flex-w">
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'ms' ? 'border-gold text-gold': ''" @click="changedJobs(2, 'ms')">Mecanico</li>
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'ps' ? 'border-gold text-gold': ''" @click="changedJobs(4, 'ps')">Pikeman</li>
             <li class="px-4 border-2 bg-brown border-brown rounded-30 cursor-pointer" :class="selected === 'prs' ? 'border-gold text-gold': ''" @click="changedJobs(8, 'prs')">Sacerdotisa</li>
