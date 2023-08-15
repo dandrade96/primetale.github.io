@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex bg-banner-3 w-12/12 rounded-30 mt-10 h-417 cursor-pointer items-center justify-center">
+            <div class="flex bg-banner-3 w-12/12 rounded-30 mt-10 h-mdh cursor-pointer items-center justify-center">
                 <span class="items-center justify-center z-50 absolute text-8xl text-shadow-black">EVENTOS ATIVOS</span>
                 <div>
                     <svg width="879" height="30" class="mt-24 z-0 drop-shadow-3xl">

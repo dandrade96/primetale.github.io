@@ -11,12 +11,16 @@ module.exports = {
     },
     colors: {
       'green': '#7DF843',
+      'green-boss':'#92e264',
       'yellow': '#D9B48F',
       'yellow-lg': '#FFE07E',
       'yellow-xl': '#FFD542',
       'gold': '#FFB800',
       'brown': '#181513',
       'preto-ebano': '#161312',
+      'red-boss': '#e26464',
+      'purple-boss': '#e264e2',
+      'blue-boss': '#7064e2',
       'white-op-25': 'rgba(255, 255, 255, 0.25)',
       'white': '#ffffff',
       'gold-rk': '#ffd700',
@@ -40,7 +44,8 @@ module.exports = {
       },
       height: {
         '212': '22.06035379812695vh',
-        '417': '417px',
+        '417': '50.79171741778319vh',
+        'mdh': '40.79171741778319vh',
         'card-guia': '80vh',
         'card-rank': '70vh',
         
@@ -51,7 +56,8 @@ module.exports = {
       margin:{
         '20': '2.0811654526534857vh',
         '33': ' 1.71875vw',
-        '46px': '46px',
+        'mdh': '4.216216216216216vh',
+        '46px': '6.216216216216216vh',
         '48': '2.5vw',
         '50px': '2.6041666666666665vw',
         '59': '3.688rem',
